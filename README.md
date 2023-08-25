@@ -1,0 +1,1 @@
+# wordsmith-kubernetes-files
