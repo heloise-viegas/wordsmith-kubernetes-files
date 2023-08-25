@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: dockersamples/wordsmith-api:$IMAGE_TAG
+        image: dockersamples/wordsmith-api:49
         ports:
         - containerPort: 8080
           name: api
