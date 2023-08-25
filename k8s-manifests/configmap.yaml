@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  words.sql: "CREATE TABLE nouns (word TEXT NOT NULL);\r\nCREATE TABLE verbs (word TEXT NOT NULL);\r\nCREATE TABLE adjectives (word TEXT NOT NULL);\r\n\r\nINSERT INTO nouns(word) VALUES\r\n  ('cloud'),\r\n  ('elephant'),\r\n  ('gø language'),\r\n  ('laptøp'),\r\n  ('cøntainer'),\r\n  ('micrø-service'),\r\n  ('turtle'),\r\n  ('whale'),\r\n  ('gøpher'),\r\n  ('møby døck'),\r\n  ('server'),\r\n  ('bicycle'),\r\n  ('viking'),\r\n  ('mermaid'),\r\n  ('fjørd'),\r\n  ('legø'),\r\n  ('flødebolle'),\r\n  ('smørrebrød');\r\n\r\nINSERT INTO verbs(word) VALUES\r\n  ('will drink'),\r\n  ('smashes'),\r\n  ('smøkes'),\r\n  ('eats'),\r\n  ('walks tøwards'),\r\n  ('løves'),\r\n  ('helps'),\r\n  ('pushes'),\r\n  ('debugs'),\r\n  ('invites'),\r\n  ('hides'),\r\n  ('will ship');\r\n\r\nINSERT INTO adjectives(word) VALUES\r\n  ('the exquisite'),\r\n  ('a pink'),\r\n  ('the røtten'),\r\n  ('a red'),\r\n  ('the serverless'),\r\n  ('a brøken'),\r\n  ('a shiny'),\r\n  ('the pretty'),\r\n  ('the impressive'),\r\n  ('an awesøme'),\r\n  ('the famøus'),\r\n  ('a gigantic'),\r\n  ('the gløriøus'),\r\n  ('the nørdic'),\r\n  ('the welcøming'),\r\n  ('the deliciøus');\r\n"
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: db-schema
