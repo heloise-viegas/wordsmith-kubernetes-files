@@ -30,7 +30,8 @@ spec:
     spec:
       containers:
         - name: web
-          image: dockersamples/wordsmith-web:$IMAGE_TAG
+          image: dockersamples/wordsmith-web:5
+          #$IMAGE_TAG
           ports:
             - containerPort: 80
               name: web
