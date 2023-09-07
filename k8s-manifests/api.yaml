@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: heloise1/wordsmithapi:96
+        image: heloise1/wordsmithapi:169
         ports:
         - containerPort: 8080
           name: api
