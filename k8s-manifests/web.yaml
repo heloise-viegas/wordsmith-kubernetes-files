@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: heloise1/wordsmithweb:12
+          image: heloise1/wordsmithweb:14
           #$IMAGE_TAG
           ports:
             - containerPort: 80
