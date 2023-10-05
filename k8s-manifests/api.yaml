@@ -5,7 +5,7 @@ metadata:
   labels:
     app: api
   annotations:
-    prometheus.io/port: "api"
+    prometheus.io/port: "metrics"
     prometheus.io/scrape: "true"
 spec:
   ports:
