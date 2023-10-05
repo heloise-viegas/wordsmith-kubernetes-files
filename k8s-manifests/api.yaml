@@ -4,6 +4,9 @@ metadata:
   name: api
   labels:
     app: api
+  annotations:
+    prometheus.io/port: "metrics"
+    prometheus.io/scrape: "true"
 spec:
   ports:
   - port: 8080
